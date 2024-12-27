@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AluraGeek - Meus Produtos</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="header-content">
+        <span class="logo">❤️❤️❤️ AluraGeek</span>
+      </div>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+      <section class="product-gallery">
+        <h1>MEUS PRODUTOS:</h1>
+        <div class="product-cards" data-lista-produtos>
+          <!-- Estrutura de um card de produto -->
+          <div class="product-card">
+            <img src="" alt="Imagem do Produto" class="product-image" />
+            <h2 class="product-name">Nome do Produto</h2>
+            <p class="product-price">R$ 00,00</p>
+            <button class="delete-button">🗑️</button>
+          </div>
+          <!-- Adicione mais cards aqui dinamicamente -->
+
+        </div>
+      </section>
+
+      <aside class="product-form">
+        <h2>ADICIONAR PRODUTO:</h2>
+        <form>
+          <input
+            type="text"
+            placeholder="nome..."
+            class="form-input"
+            required
+          />
+          <input
+            type="number"
+            placeholder="valor..."
+            class="form-input"
+            required
+          />
+          <input
+            type="text"
+            placeholder="imagem..."
+            class="form-input"
+            required
+          />
+          <div class="form-buttons">
+            <button type="submit" class="btn save-button">Guardar</button>
+            <button type="reset" class="btn clear-button">Limpar</button>
+          </div>
+        </form>
+      </aside>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <p>DESENVOLVIDO POR LEONARDO</p>
+      <p>ALURA LATAM - 2024</p>
+    </footer>
+
+    <script src="./js/mostrarProdutos.js" type="module"></script>
+
+  </body>    
+
+</html>

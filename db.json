@@ -1,0 +1,10 @@
+{
+  "produtos": [
+    {      
+      "nome": "Super Man",
+      "preco": "10",
+      "imagem": "https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/12/superman.png?w=838&h=397&crop=1&quality=85",
+      "id": 1
+    }
+  ]
+}
