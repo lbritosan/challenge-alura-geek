@@ -33,28 +33,31 @@
 
       <aside class="product-form">
         <h2>ADICIONAR PRODUTO:</h2>
-        <form>
+        <form data-formulario>
           <input
             type="text"
             placeholder="nome..."
             class="form-input"
             required
+            data-input-nome
           />
           <input
             type="number"
             placeholder="valor..."
             class="form-input"
             required
+            data-input-valor
           />
           <input
             type="text"
             placeholder="imagem..."
             class="form-input"
             required
+            data-input-imagem
           />
           <div class="form-buttons">
-            <button type="submit" class="btn save-button">Guardar</button>
-            <button type="reset" class="btn clear-button">Limpar</button>
+            <button type="submit" class="btn save-button" data-button-guardar>Guardar</button>
+            <button type="reset" class="btn clear-button" data-button-limpar>Limpar</button>
           </div>
         </form>
       </aside>
@@ -63,10 +66,12 @@
     <!-- Rodapé -->
     <footer class="footer">
       <p>DESENVOLVIDO POR LEONARDO</p>
-      <p>ALURA LATAM - 2024</p>
+      <p>ALURA LATAM - 2025</p>
     </footer>
 
     <script src="./js/mostrarProdutos.js" type="module"></script>
+    <script src="./js/criarProduto.js" type="module"></script>
+    <script src="./js/deletarProduto.js" type="module"></script>
 
   </body>    
 
